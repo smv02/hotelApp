@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="457.0" prefWidth="313.0" styleClass="left-form" stylesheets="@../style/login.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="BUILDING" layoutX="99.0" layoutY="210.0" size="10em" wrappingWidth="114.85713958740234" />
+                  <Label layoutX="62.0" layoutY="246.0" text="Hotel Management" textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="313.0" prefHeight="457.0" prefWidth="301.0" styleClass="white-bg" stylesheets="@../style/login.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="313.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <FontAwesomeIconView glyphName="USER" layoutX="135.0" layoutY="92.0" selectionFill="#3f3951" size="6em" />
+                  <Label layoutX="109.0" layoutY="102.0" text="Sign In" textFill="#3f3951">
+                     <font>
+                        <Font name="Segoe UI Black" size="30.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="61.0" layoutY="179.0" prefHeight="30.0" prefWidth="200.0" promptText="Username" styleClass="textfield" stylesheets="@../style/login.css" AnchorPane.leftAnchor="61.0" AnchorPane.rightAnchor="40.0" />
+                  <PasswordField layoutX="61.0" layoutY="237.0" prefHeight="30.0" prefWidth="200.0" promptText="Password" styleClass="textfield" stylesheets="@../style/login.css" AnchorPane.leftAnchor="61.0" AnchorPane.rightAnchor="40.0" />
+                  <Button layoutX="113.0" layoutY="302.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="96.0" styleClass="login-btn" stylesheets="@../style/login.css" text="Login" AnchorPane.leftAnchor="113.0" AnchorPane.rightAnchor="92.0" />
+                  <Button layoutX="242.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="51.0" styleClass="close" stylesheets="@../style/login.css" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                  <FontAwesomeIconView glyphName="CLOSE" layoutX="268.0" layoutY="19.0" size="1.2em" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
